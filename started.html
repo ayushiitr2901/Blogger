@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Get Started</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" type="text/css" href="started1.css">
+
+</head>
+
+<body>
+
+<div class="navbar">   
+  <a href="contact.html" class="active">Contact Us</a>
+  <a href="login.html">Login/Sign up</a>
+  <a href="home.html">Home</a>
+</div>
+<div style="margin: 0px">
+  <img class="mySlides" src="group1.jpg" >
+  <div class="text"><p>f.r.i.e.n.d.s</p></div>
+  <img class="mySlides" src="group2.jpg" >
+  <img class="mySlides" src="group5.jpg" >
+  <img class="mySlides" src="group3.jpg" >
+</div>
+
+<script>
+var myIndex = 0;
+slideshow();
+
+function slideshow() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(slideshow, 2300);
+}
+</script>
+<div class="cover">
+<div class="cont"><p>We made it really, really simple for people to make a blog and put whatever they want on it. Stories, photos, GIFs,  links, dumb jokes, smart jokes, mp3s, videos, fashion, art, deep stuff. Friends is a portal literally filled with thousands of memories and stories which can be shared or preserved... </p><br></div>
+
+<!--<div class="intro">
+  <img src="7.jpg" style="width: 40%; height: 300px;" id="i1">
+  <div class="intro-part"><h1>MAke you blog</h1></div>
+</div>--> 
+
+
+<div class="content"><h3 id="pp">  Share frienship..</h3></div>
+<img src="group4.jpg" class="pics">
+<div class="content"><h3 id="pp">Share innocence..</h3></div>
+<img src="child.jpg" class="pics">
+<div class="content"><h3 id="pp">Share fashion..</h3></div>
+<img src="fashion.jpg" class="pics">
+<div class="content"><h3 id="pp">Share stories..</h3></div>
+<img src="stories.jpg" class="pics">
+<div class="content"><h3 id="pp">Share cuteness..</h3></div>
+<img src="cuteness.jpg" class="pics">
+<div class="content"><h3 id="pp">and many more.....</h3></div>
+<a href="login.html" class="get">GET STARTED</a></div>
+<br><br><br><br><br>  
+</body>
+</html>

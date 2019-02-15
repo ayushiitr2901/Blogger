@@ -1,0 +1,69 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+h1{
+  margin-top: 80px;
+  font-size: 42px;
+  font-family: Comic Sans MS;
+  text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-align: center;
+}
+p{
+  font-size: 24px;
+  margin:100px;
+}
+.ayush{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height:200px;
+    margin-top: 65px;
+}
+figcaption{
+  text-align: center;
+  font-size:20px;
+  /*text-decoration-line: underline;*/
+  font-family: "Comic Sans MS";
+}
+body{
+ background: url(save.jpg) bottom no-repeat, url(gray.jpg) top no-repeat; 
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+
+}
+.iit{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height:150px;
+}
+
